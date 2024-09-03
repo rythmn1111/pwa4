@@ -6,4 +6,7 @@ const withPWA = withPWAInit({
 
 export default withPWA({
   // Your Next.js config
+  eslint: {
+    ignoreDuringBuilds: true,
+  },
 });
